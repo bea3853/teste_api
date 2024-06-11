@@ -34,7 +34,7 @@ def ano():
     return jsonify({todos})
         
 
-@app.run('host = 'https://minhaapi.netlify.app/')
+@app.run(host = 'https://minhaapi.netlify.app/')
             
 
 
