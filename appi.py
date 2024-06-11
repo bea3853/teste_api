@@ -33,7 +33,8 @@ def ano():
     todos =  dados['ANO']
     return jsonify({todos})
         
-    
+
+@app.run('host = 'https://minhaapi.netlify.app/')
             
 
 
